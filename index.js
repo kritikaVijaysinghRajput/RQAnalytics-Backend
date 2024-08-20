@@ -10,7 +10,7 @@ const port = process.env.PORT || 5001;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://rq-analytics-frontend.vercel.app/",
   })
 );
 
